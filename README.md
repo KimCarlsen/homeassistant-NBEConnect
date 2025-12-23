@@ -3,6 +3,8 @@
 This integration should be able to connect to a scotte/RTB V7/V13 controllers (and apparently also aduro pellet hybrid stoves). The software 
 is based on the NBE Test program https://github.com/motoz/nbetest by https://github.com/motoz
 
+The integration is based on work from https://github.com/svanggaard/NBEConnect and https://github.com/Brille783/NBEConnectfyr
+
 ## Purpose
 
 To reduce pellet consumption. The easiest way to reduce pellet consumption is to turn the pelletboiler off. The RTB App/Stokercloud makes it 
