@@ -2,7 +2,7 @@ name: Create Release From manifest.json
 
 on:
   push:
-    branches: [ "main" ]   # triggers on main branch push
+    branches: [ "master" ]   # triggers on main branch push
 
 permissions:
   contents: write
