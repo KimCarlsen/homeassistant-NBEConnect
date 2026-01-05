@@ -18,7 +18,7 @@ jobs:
       - name: Read version from manifest.json
         id: manifest
         run: |
-          VERSION=$(jq -r '.version' custom_components/stokercloud/manifest.json)
+          VERSION=$(jq -r '.version' custom_components/NBEConnect/manifest.json)
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create tag
